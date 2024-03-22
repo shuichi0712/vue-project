@@ -10,5 +10,12 @@
     {
       "path": "./tsconfig.vitest.json"
     }
-  ]
+  ],
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node"
+  },
+  "compilerOptions": {
+    "esModuleInterop": true
+  }
 }
